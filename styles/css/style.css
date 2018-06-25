@@ -160,4 +160,49 @@ br {
 
 #car {
   margin-right: 0px;
-  margin-left: auto; }
+  margin-left: auto;
+  cursor: pointer; }
+
+#bus {
+  cursor: pointer; }
+
+.product-list {
+  padding-top: 40px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.carproduct {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  z-index: 1;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0; }
+
+.busproduct {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  z-index: -2;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0; }
+
+.productimage img {
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 10%; }
+
+.productimage {
+  margin-left: auto;
+  margin-right: auto;
+  object-position: center; }
+
+.active {
+  z-index: 100; }
