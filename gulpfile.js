@@ -6,7 +6,7 @@ gulp.task('styles', function(){
 	gulp.src('./styles/scss/*.scss')
 	.pipe(sass())
 	.on('error',console.log.bind(console))
-	.pipe(gulp.dest('./dist'))
+	.pipe(gulp.dest('./styles/css'))
 	.pipe(browserSync.reload({stream:true}));
 });
 
