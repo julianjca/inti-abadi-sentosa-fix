@@ -335,3 +335,9 @@ br {
   font-size: 160%;
   padding-top: 1%;
   padding-bottom: 3%; }
+
+#mc_embed_signup input.email {
+  font-family: 'Lato' !important; }
+
+#mc_embed_signup .button {
+  font-family: 'Lato' !important; }
