@@ -230,6 +230,12 @@ br {
   cursor: pointer;
   width: 40%; }
 
+#car:hover,
+#car:active,
+#bus:hover,
+#bus:active {
+  border-bottom: 3px solid #b23a3d; }
+
 #bus {
   cursor: pointer;
   width: 43%; }
@@ -281,3 +287,6 @@ br {
   transition: 1s;
   opacity: 100%;
   -webkit-transition: opacity 1s; }
+
+.aktif {
+  border-bottom: 3px solid #b23a3d; }
