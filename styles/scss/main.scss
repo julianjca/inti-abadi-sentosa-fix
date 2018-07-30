@@ -8,7 +8,8 @@ $color-1: #b23a3d;
 
 html {
   background-color: #fff;
-  font-family: "Lato", "Roboto Slab", "Arial", sans-serif, BebasNeue, Bebas, BebasKai, "bebas_kairegular";
+  font-family: "Lato", "Roboto Slab", "Arial", sans-serif, BebasNeue, Bebas,
+    BebasKai, "bebas_kairegular";
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
   margin: 0;
@@ -333,5 +334,5 @@ br {
 }
 
 .aktif {
-  border-bottom: 3px solid $color-1;
+  border-bottom: 2px solid $color-1;
 }

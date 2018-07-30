@@ -16,6 +16,6 @@ bus.addEventListener('click', ()=>{
   busproduct.classList.add("active");
   car.classList.remove("aktif");
   carproduct.classList.remove("active");
-  bus.classList.add("add");
+  bus.classList.add('add');
 });
 
