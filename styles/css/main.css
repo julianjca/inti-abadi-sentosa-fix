@@ -181,8 +181,9 @@ br {
 
 .container-about-us p {
   font-size: 20px;
-  width: 80%;
+  width: 87%;
   text-align: justify;
+  hyphens: auto;
   color: #b23a3d;
   font-family: "Montserrat";
   font-weight: 200;

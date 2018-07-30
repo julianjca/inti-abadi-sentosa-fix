@@ -8,8 +8,7 @@ $color-1: #b23a3d;
 
 html {
   background-color: #fff;
-  font-family: "Lato", "Roboto Slab", "Arial", sans-serif, BebasNeue, Bebas,
-    BebasKai, "bebas_kairegular";
+  font-family: "Lato", "Roboto Slab", "Arial", sans-serif, BebasNeue, Bebas, BebasKai, "bebas_kairegular";
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
   margin: 0;
@@ -212,8 +211,9 @@ br {
 
 .container-about-us p {
   font-size: 20px;
-  width: 80%;
-  text-align: justify;
+  width: 87%;
+  text-align: justify; //word-break: break-all;
+  hyphens: auto;
   color: #b23a3d;
   font-family: "Montserrat";
   font-weight: 200;
