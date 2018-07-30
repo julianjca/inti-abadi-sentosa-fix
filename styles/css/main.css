@@ -192,7 +192,7 @@ br {
 
 .our-products {
   width: 100%;
-  height: 100%; }
+  height: 1050px; }
 
 .our-products h2 {
   font-family: "Lato";
@@ -291,3 +291,30 @@ br {
 
 .aktif {
   border-bottom: 2px solid #b23a3d; }
+
+.visit-blog {
+  background-color: #b23a3d;
+  color: #ffffff;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+.visit-blog h2,
+.visit-blog h3 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+.visit-blog h2 {
+  margin-bottom: 30px;
+  font-size: 200%;
+  font-weight: 700; }
+
+.visit-blog h3 {
+  font-size: 140%;
+  font-weight: 500;
+  background-color: #ffffff;
+  color: #b23a3d !important;
+  padding: 2% 2%;
+  border-radius: 50px;
+  width: 20%; }
