@@ -1,6 +1,7 @@
 /* ALL ITEMS */
 
 $color-1: #b23a3d;
+$color-2: #d8d8d8;
 * {
   padding: 0;
   margin: 0;
@@ -368,7 +369,7 @@ br {
   font-weight: 500;
   background-color: #ffffff;
   color: #b23a3d !important;
-  padding: 2% 2%;
+  padding: 1% 1%;
   border-radius: 50px;
   width: 20%;
 }
@@ -463,4 +464,12 @@ br {
   font-weight: 300;
   padding-top: 2%;
   font-size: 100%;
+}
+
+//footer
+.footer {
+  width: 100%;
+  background-color: $color-2;
+  height: 100%;
+  padding: 5%;
 }
