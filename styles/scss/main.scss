@@ -21,7 +21,8 @@ $color-2: #d8d8d8;
 
 html {
   background-color: #fff;
-  font-family: "Lato", "Roboto Slab", "Arial", sans-serif, BebasNeue, Bebas, BebasKai, "bebas_kairegular";
+  font-family: "Lato", "Roboto Slab", "Arial", sans-serif, BebasNeue, Bebas,
+    BebasKai, "bebas_kairegular";
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
   margin: 0;
@@ -62,7 +63,8 @@ body {
   overflow-x: hidden;
   height: 100%;
   font-size: x-large;
-  font-family: "Lato", "Roboto Slab", "Arial", sans-serif, BebasNeue, Bebas, BebasKai, "bebas_kairegular";
+  font-family: "Lato", "Roboto Slab", "Arial", sans-serif, BebasNeue, Bebas,
+    BebasKai, "bebas_kairegular";
 }
 
 br {
@@ -174,11 +176,12 @@ br {
 }
 
 .imageLanding img {
-  width: 700px;
+  position: relative;
+  width: 600px;
   height: auto;
   padding-top: 10%;
   margin-left: 4%;
-  margin-right: 3%;
+  right: 1%;
 }
 
 .landing1 h1 {
@@ -381,8 +384,8 @@ br {
 
 .visit-blog h2 {
   margin-bottom: 30px;
-  font-size: 1.5em;
-  font-weight: 600;
+  font-size: 1.3em;
+  font-weight: 500;
 }
 
 .visit-blog h3 {
@@ -447,7 +450,7 @@ br {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 2%;
+  padding-top: 3%;
   padding-bottom: 3%;
 }
 
@@ -474,7 +477,7 @@ br {
   font-weight: 300;
   padding-top: 3%;
   line-height: 25px;
-  font-size: 0.7em;
+  font-size: 0.6em;
 }
 
 .contact h4 {
@@ -494,14 +497,14 @@ br {
   width: 100%;
   background-color: $color-2;
   height: 100%;
-  padding: 5%;
+  padding: 3%;
 }
 
 .container-footer {
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 0.8fr;
+  grid-template-columns: 1fr 1fr 1fr;
   width: 80%;
 }
 
@@ -511,11 +514,25 @@ br {
 
 .container-footer h4 {
   font-size: 0.7em;
+  padding-top: 1.5%;
+}
+
+.container-footer a {
+  text-decoration: none;
+  color: black;
 }
 
 .container-footer p {
-  margin-top: 1%;
+  margin-top: 2%;
   font-size: 0.6em;
+  font-family: "Montserrat";
+  line-height: 24px;
+}
+
+#instagram {
+  margin-top: 2%;
+  width: 25px;
+  height: auto;
 }
 
 //*About Us Page
