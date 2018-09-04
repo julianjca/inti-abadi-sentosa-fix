@@ -71,8 +71,7 @@ br {
   border-radius: 100px;
   padding: 2.7% 5.7%;
   margin-left: 15%;
-  cursor: pointer;
-  -webkit-transition: padding 0.3s; }
+  cursor: pointer; }
 
 /* @keyframes hovering {
     0% {
@@ -499,7 +498,8 @@ br {
 .misi {
   display: block;
   width: 100%;
-  height: 80%; }
+  height: 80%;
+  margin-bottom: 5%; }
 
 .visi h2,
 .misi h2 {
@@ -534,3 +534,27 @@ br {
   margin-right: auto;
   text-overflow: ellipsis;
   text-align: center; }
+
+.contact-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  background-color: #b23a3d;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  border-radius: 35px;
+  margin-bottom: 5%;
+  padding: 2% 0; }
+
+.inside-div {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff; }
+
+.contact-list p {
+  margin-top: 3%;
+  font-size: 0.7em;
+  line-height: 25px;
+  font-weight: 300; }

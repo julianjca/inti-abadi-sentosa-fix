@@ -93,7 +93,6 @@ br {
   padding: 2.7% 5.7%;
   margin-left: 15%;
   cursor: pointer;
-  -webkit-transition: padding 0.3s;
 }
 
 /* @keyframes hovering {
@@ -590,6 +589,7 @@ br {
   display: block;
   width: 100%;
   height: 80%;
+  margin-bottom: 5%;
 }
 
 .visi h2,
@@ -627,4 +627,32 @@ br {
   margin-right: auto;
   text-overflow: ellipsis;
   text-align: center;
+}
+
+//Contact Us Page
+.contact-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  background-color: $color-1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  border-radius: 35px;
+  margin-bottom: 5%;
+  padding: 2% 0;
+}
+
+.inside-div {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-list p {
+  margin-top: 3%;
+  font-size: 0.7em;
+  line-height: 25px;
+  font-weight: 300;
 }
