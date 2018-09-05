@@ -580,4 +580,42 @@ br {
   .menu {
     display: none; }
   .logo {
-    margin-top: 20px; } }
+    margin-top: 20px; }
+  .menu-landing {
+    display: block; }
+  .menu-landing img {
+    display: none; }
+  .container-about-us {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .container-about-us h2,
+  .container-about-us p {
+    padding: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .container-about-us h2 {
+    margin-top: 20px;
+    font-size: 2.5rem; }
+  .container-about-us p {
+    font-size: 1rem; }
+  .busproduct,
+  .carproduct {
+    display: block;
+    width: 80%; }
+  .car-and-bus {
+    display: block; }
+  #car,
+  #bus {
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 0; }
+  .our-products {
+    height: 3000px; }
+  .visit-blog h3 {
+    width: 60%; }
+  .visit-blog h2 {
+    font-size: 30px;
+    width: 80%; } }
