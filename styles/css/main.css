@@ -553,8 +553,31 @@ br {
   text-align: center;
   color: #fff; }
 
+.inside-div h2 {
+  padding-bottom: 1%;
+  border-bottom: 1px solid #fff; }
+
 .contact-list p {
   margin-top: 3%;
   font-size: 0.7em;
   line-height: 25px;
   font-weight: 300; }
+
+@media only screen and (max-width: 600px) {
+  .contact-list {
+    display: block;
+    padding: 5% 0; }
+  .mobil-kecil-contact-page {
+    margin-top: 20px; }
+  .inside-div h2 {
+    padding-bottom: 1%;
+    border-bottom: 1px solid #fff;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+  .container-footer {
+    display: block; }
+  .menu {
+    display: none; }
+  .logo {
+    margin-top: 20px; } }
