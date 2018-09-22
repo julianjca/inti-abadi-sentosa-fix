@@ -13,7 +13,7 @@
 
 html {
   background-color: #fff;
-  font-family: "Lato", "Roboto Slab", "Arial", sans-serif, BebasNeue, Bebas, BebasKai, "bebas_kairegular";
+  font-family: 'Lato', 'Roboto Slab', 'Arial', sans-serif, BebasNeue, Bebas, BebasKai, 'bebas_kairegular';
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
   margin: 0;
@@ -26,7 +26,7 @@ html {
   zoom: 1; }
 
 .clearfix::after {
-  content: "";
+  content: '';
   clear: both;
   display: table; }
 
@@ -48,7 +48,7 @@ body {
   overflow-x: hidden;
   height: 100%;
   font-size: x-large;
-  font-family: "Lato", "Roboto Slab", "Arial", sans-serif, BebasNeue, Bebas, BebasKai, "bebas_kairegular"; }
+  font-family: 'Lato', 'Roboto Slab', 'Arial', sans-serif, BebasNeue, Bebas, BebasKai, 'bebas_kairegular'; }
 
 br {
   display: block;
@@ -123,7 +123,7 @@ br {
 
 .menu a {
   color: #ffffff;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 300;
   text-decoration: none;
   list-style: none;
@@ -144,12 +144,11 @@ br {
   padding-bottom: 3%; }
 
 .imageLanding img {
-  position: relative;
   width: 600px;
   height: auto;
   padding-top: 10%;
-  margin-left: 4%;
-  right: 1%; }
+  margin-right: auto;
+  margin-left: 10%; }
 
 .landing1 h1 {
   color: #fff;
@@ -176,7 +175,7 @@ br {
 
 .container-about-us h2 {
   color: #ffffff;
-  font-family: "Lato";
+  font-family: 'Lato';
   font-size: 2.5em;
   line-height: 70px;
   font-weight: 600;
@@ -196,7 +195,7 @@ br {
   text-align: justify;
   hyphens: auto;
   color: #fff;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: 200;
   line-height: 30px;
   font-weight: 300; }
@@ -208,7 +207,7 @@ br {
   display: block; }
 
 .our-products h2 {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-weight: 700;
   text-align: center;
   margin-left: auto;
@@ -226,7 +225,7 @@ br {
   margin-left: auto;
   margin-right: auto;
   padding-top: 2%;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-size: 0.7em;
   line-height: 34px; }
 
@@ -345,7 +344,7 @@ br {
   height: 100%; }
 
 #mailchimp-email {
-  font-family: "Lato";
+  font-family: 'Lato';
   padding-top: 3%; }
 
 #mc_embed_signup label {
@@ -357,16 +356,16 @@ br {
 
 #paragraf-mailchimp {
   text-align: center;
-  font-family: "Lato";
+  font-family: 'Lato';
   font-size: 160%;
   padding-top: 1%;
   padding-bottom: 3%; }
 
 #mc_embed_signup input.email {
-  font-family: "Lato" !important; }
+  font-family: 'Lato' !important; }
 
 #mc_embed_signup .button {
-  font-family: "Lato" !important; }
+  font-family: 'Lato' !important; }
 
 .contact-message-section {
   width: 100%;
@@ -374,7 +373,7 @@ br {
   height: 100%;
   margin-top: 3%;
   color: #fff;
-  font-family: "Lato"; }
+  font-family: 'Lato'; }
 
 .container-contact {
   display: grid;
@@ -443,7 +442,7 @@ br {
 .container-footer p {
   margin-top: 2%;
   font-size: 0.6em;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   line-height: 24px; }
 
 #instagram {
@@ -471,7 +470,7 @@ br {
   margin-left: auto;
   margin-right: auto;
   font-size: 0.8em;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   padding-top: 2%;
   font-weight: 300;
   width: 85%;
@@ -512,7 +511,7 @@ br {
   padding-bottom: 1%; }
 
 .visi p {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   width: 80%;
   line-height: 28px;
   color: black;
@@ -524,7 +523,7 @@ br {
   text-align: center; }
 
 .misi p {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   width: 85%;
   line-height: 28px;
   color: black;
@@ -563,7 +562,7 @@ br {
   line-height: 25px;
   font-weight: 300; }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 500px) and (max-width: 700px) {
   .contact-list {
     display: block;
     padding: 5% 0; }
@@ -618,4 +617,217 @@ br {
     width: 60%; }
   .visit-blog h2 {
     font-size: 30px;
+    width: 80%; }
+  #mce-EMAIL,
+  #mc_embed_signup input.email,
+  #mc_embed_signup .button {
+    width: 50% !important; } }
+
+@media only screen and (min-width: 900px) and (max-width: 1100px) {
+  .contact-list {
+    display: block;
+    padding: 5% 0; }
+  .mobil-kecil-contact-page {
+    margin-top: 20px; }
+  .inside-div h2 {
+    padding-bottom: 1%;
+    border-bottom: 1px solid #fff;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+  .menu {
+    display: none; }
+  .logo {
+    margin-top: 20px; }
+  .menu-landing img {
+    width: 500px;
+    height: auto;
+    padding-top: 15%; }
+  .container-about-us {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .container-about-us h2,
+  .container-about-us p {
+    padding: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .container-about-us h2 {
+    margin-top: 20px;
+    font-size: 2.5rem; }
+  .container-about-us p {
+    font-size: 1rem; }
+  .our-products {
+    height: 1200px; }
+  .visit-blog h3 {
+    width: 40%; }
+  .visit-blog h2 {
+    font-size: 30px;
     width: 80%; } }
+
+@media only screen and (min-width: 300px) and (max-width: 499px) {
+  .our-products p {
+    text-align: center;
+    hyphens: auto;
+    font-size: 20px;
+    color: black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    font-family: 'Montserrat';
+    font-size: 0.6em;
+    line-height: 34px; }
+  .landing-button {
+    background-color: #fff;
+    color: #b23a3d;
+    font-size: 1em;
+    padding: 2% 6%;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    width: 60%; }
+  .landing1 h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0;
+    color: #fff;
+    padding-top: 10%;
+    width: 80%;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    margin-bottom: 9%; }
+  .contact-list {
+    display: block;
+    padding: 5% 0; }
+  .mobil-kecil-contact-page {
+    margin-top: 20px; }
+  .inside-div h2 {
+    padding-bottom: 1%;
+    border-bottom: 1px solid #fff;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+  .container-footer {
+    display: block; }
+  .menu {
+    display: none; }
+  .logo {
+    margin-top: 20px; }
+  .menu-landing {
+    display: block; }
+  .menu-landing img {
+    display: none; }
+  .container-about-us {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .container-about-us h2,
+  .container-about-us p {
+    padding: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .container-about-us h2 {
+    margin-top: 20px;
+    font-size: 2.5rem; }
+  .container-about-us p {
+    font-size: 1rem; }
+  .busproduct,
+  .carproduct {
+    display: block;
+    width: 80%; }
+  .car-and-bus {
+    display: block; }
+  #car,
+  #bus {
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 0; }
+  .our-products {
+    height: 2600px; }
+  .visit-blog h3 {
+    width: 60%;
+    font-size: 16px; }
+  .visit-blog h2 {
+    font-size: 20px;
+    width: 80%; }
+  #mce-EMAIL,
+  #mc_embed_signup input.email,
+  #mc_embed_signup .button {
+    width: 50% !important; }
+  #mc_embed_signup label {
+    display: block;
+    font-size: 16px !important;
+    padding-bottom: 10px;
+    font-weight: bold; }
+  #paragraf-mailchimp {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lato';
+    font-size: 100% !important;
+    padding-top: 1%;
+    width: 70%;
+    padding-bottom: 3%; }
+  #rectangle {
+    display: none; }
+  .container-contact {
+    display: block; }
+  .message,
+  .contact {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; }
+  .message {
+    padding-top: 30px;
+    padding-bottom: 3%; }
+  .footer {
+    width: 100%;
+    background-color: #d8d8d8;
+    height: 100%;
+    padding: 3%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .container-about-us h2 {
+    color: #ffffff;
+    font-family: 'Lato';
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0;
+    width: 40%; }
+  .container-about-us p {
+    font-size: 14px; }
+  .about-us-page-heading h1 {
+    padding-top: 20%;
+    font-size: 35px; }
+  .visi h2,
+  .misi h2 {
+    font-size: 20px; }
+  .about-us-paragraph p,
+  .visi p,
+  .misi p {
+    color: black;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    padding-top: 2%;
+    font-weight: 300;
+    width: 85%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    text-overflow: ellipsis; } }
